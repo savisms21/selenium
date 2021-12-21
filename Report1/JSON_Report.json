@@ -1,0 +1,447 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-19T09:51:47.503Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5002200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.beforehooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User login the adactin application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-login-the-adactin-application",
+        "after": [
+          {
+            "result": {
+              "duration": 117001600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.afterhooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9016044700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch the adactin application",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3698031600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"SavithaAlagar\"valid user name",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_enter_the_savitha_alagar_valid_user_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637007200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the valid \"7HGL4E\"password",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_enter_the_valid_7hgl4e_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10910007400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T09:52:12.486Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.beforehooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User book the hotel",
+        "description": "",
+        "id": "hotel-booking-functionality;user-book-the-hotel",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.afterhooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 811007200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select the location",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_select_the_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 757267100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select the hotels",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_select_the_hotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user select the room type",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_select_the_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027002000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user search the hotel",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_search_the_hotel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T09:52:15.294Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3001900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.beforehooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "user select the hotel",
+        "description": "",
+        "id": "hotel-booking-functionality;user-select-the-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 3997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.afterhooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155996500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click the hotel name",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_click_the_hotel_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 787589200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click the continue button",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_click_the_continue_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T09:52:16.272Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.beforehooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Book a hotel",
+        "description": "",
+        "id": "hotel-booking-functionality;book-a-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 1375999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.afterhooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2523998700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user has to enter the Firstname",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_has_to_enter_the_firstname()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398999400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user has to enter the Lastname",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_has_to_enter_the_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265999400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user has to enter the billing address",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_has_to_enter_the_billing_address()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)\r\n\tat com.baseclass.org.Base.inputValueElement(Base.java:120)\r\n\tat com.stepdefinition.org.StepDefinition.user_has_to_enter_the_credit_cardno(StepDefinition.java:133)\r\n\tat ✽.user has to enter the credit cardno(file:///C:/Users/SAVITHA/eclipse-workspace/cucumber1/src/test/java/com/feature/org/cucumber1.feature:23)\r\n",
+              "duration": 35996800,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "user has to enter the credit cardno",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_has_to_enter_the_credit_cardno()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user enter the credit cardtype",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_enter_the_credit_cardtype()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user has to select the expirydate",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_has_to_select_the_expirydate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user has to enter the Cvvno",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_has_to_enter_the_cvvno()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user select the booknow",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_select_the_booknow()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T09:52:21.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.beforehooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Booking confirmation page",
+        "description": "",
+        "id": "hotel-booking-functionality;booking-confirmation-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.afterhooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1023572700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user select the itinerary",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_select_the_itinerary()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T09:52:22.118Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.beforehooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Booking logout page",
+        "description": "",
+        "id": "hotel-booking-functionality;booking-logout-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.org.Hooks.afterhooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 482997500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click the logout button",
+            "match": {
+              "location": "com.stepdefinition.org.StepDefinition.user_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking Functionality",
+    "description": "",
+    "id": "hotel-booking-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/org/cucumber1.feature",
+    "tags": []
+  }
+]
